@@ -1,5 +1,5 @@
 module.exports = {
-  apiKey: "AIzaSyAveSIFNeIQE72sySZyiu7KHEo7vJS0jwY",
+  apiKey: "",
   authDomain: "photo-s-fcf7e.firebaseapp.com",
   databaseURL: "https://photo-s-fcf7e.firebaseio.com",
   projectId: "photo-s-fcf7e",
