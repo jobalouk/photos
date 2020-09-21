@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.logo {
+  font-family: MORVA;
+  font-size: 4em;
+}
+
+@font-face {
+  font-family: 'MORVA';
+  font-weight: bold;
+  src: url('MORVA.ttf')  format('truetype'),
+       url('MORVA.otf')  format('opentype');
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 317px);
+  grid-template-rows: repeat(auto-fill, 317px);
+}
+
+.parent div {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
